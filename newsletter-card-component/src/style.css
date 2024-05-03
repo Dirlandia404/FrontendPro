@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* 1e272f */
+
+.container {
+  background-color: #e6ecfa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.box {
+  background-color: white;
+  width: 1094px;
+  margin: auto;
+  text-align: center;
+  padding: 74px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 0px 0px #ffffff66;
+}
+.titulo {
+  font-family: Merriweather;
+  color: #111827;
+  font-size: 40px;
+}
+p {
+  font-family: Poppins;
+  font-size: 24px;
+  color: #374151;
+}
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 2em;
+}
+.email {
+  border-radius: 8px;
+  height: 72px;
+  width: 599px;
+  padding: 16px;
+  font-size: 24px;
+  border: 1px solid #b3b8d8;
+  margin-right: 24px;
+}
+.email::placeholder {
+  font-family: Poppins;
+  font-size: 24px;
+  color: #b3b8d8;
+  padding: 1em;
+  border: 0;
+}
+
+.button {
+  font-family: Poppins;
+  font-size: 24px;
+  width: 185px;
+  height: 72px;
+  border-radius: 8px;
+  background-color: #111827;
+  color: white;
+  padding: 16px, 32px, 16px, 32px;
+}
+
+.checkbox-group {
+  color: #111827;
+  font-size: 14px;
+  width: 814px;
+  display: flex;
+}
+#checking {
+  margin-right: 10px;
+
+  width: 20px;
+  height: 20px;
+  border: #111827;
+}
+.checking-text {
+  text-align: left;
+}
