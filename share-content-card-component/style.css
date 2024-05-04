@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #dacdc9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.container {
+  margin: auto;
+  width: 840px;
+  height: 420px;
+  background-color: #ede9e2;
+  box-shadow: 12px 12px 0px 0px #c5aea7;
+  border-radius: 40px;
+  padding: 4em;
+
+  font-family: "Mulish";
+  color: #1e1411;
+  font-size: 18px;
+}
+.butoes {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1em;
+}
+.button_icons {
+  width: 82px;
+  height: 82px;
+  border-radius: 100%;
+  border: none;
+  cursor: pointer;
+  background-color: #d9d9d9;
+}
+.button_icons:hover {
+  border: 2px solid #000000;
+}
+.image_icons {
+  width: 38px;
+}
+p {
+  margin: 2em 0 1em 0;
+}
+.button_copiar {
+  background-color: #d9d9d9;
+  width: 672px;
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+.input_copy {
+  flex-grow: 1;
+  border-radius: 10px;
+  border: none;
+  padding: 1em;
+  background-color: #d9d9d9;
+  outline: none;
+}
+.btn {
+  border-radius: 10px;
+  width: 5em;
+  border: none;
+  background-color: #d9d9d9;
+  cursor: pointer;
+}
