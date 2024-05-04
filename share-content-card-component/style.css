@@ -9,6 +9,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  font-family: "Mulish", sans-serif;
 }
 .container {
   margin: auto;
@@ -18,15 +19,16 @@ body {
   box-shadow: 12px 12px 0px 0px #c5aea7;
   border-radius: 40px;
   padding: 4em;
-
-  font-family: "Mulish";
+}
+h1 {
+  font-weight: 600;
   color: #1e1411;
-  font-size: 18px;
+  font-size: 32px;
 }
 .butoes {
   display: flex;
   justify-content: space-between;
-  margin-top: 1em;
+  margin-top: 3em;
 }
 .button_icons {
   width: 82px;
@@ -44,10 +46,11 @@ body {
 }
 p {
   margin: 2em 0 1em 0;
+  font-weight: 600;
 }
 .button_copiar {
   background-color: #d9d9d9;
-  width: 672px;
+  width: 700px;
   height: 56px;
   display: flex;
   justify-content: space-between;
@@ -67,4 +70,5 @@ p {
   border: none;
   background-color: #d9d9d9;
   cursor: pointer;
+  font-weight: 700;
 }
